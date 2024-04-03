@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 163, 72);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 2rem;
+    background-color: rgb(101, 187, 110);
+    padding: 2rem;
+    border-radius: 1.4rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.from,
+.to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropdown img {
+    width: 2rem;
+}
+
+.dropdown select {
+    height: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.get-value {
+    outline: none;
+    padding: .5rem;
+    border-radius: 1.2rem;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    color: white;
+}
+
+#fromCur,
+#toCur {
+    outline: none;
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+form button {
+    padding: 1rem;
+    width: 80%;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+form button:hover{
+    box-shadow: 0 0 14px green;
+    transition:.3s;
+}
+
+footer{
+   margin-top: 4rem;
+}
